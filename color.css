@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(245, 156, 156);
+}
+.clasName{
+    color: brown;
+}
+article>p{
+    text-align: center;
+}
+p::first-line{
+    color: blueviolet;
+    font-size: larger;
+}
+ol{
+    list-style-type: square;
+    padding: 5px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 700;
+    text-align: justify;
+}
+.BRO{
+    color: darkmagenta;
+    font-weight: bolder;
+    border-color: black;
+}
+h1:hover{
+    color: firebrick;
+    text-decoration: line-through;
+    
+}
+p{
+    text-align: justify;
+    text-indent: 30%;
+    letter-spacing: 1px;
+    word-spacing: 120%;
+}

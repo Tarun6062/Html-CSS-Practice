@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYEMENT FORM</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body class="container">
+    <form action="">
+        <h1 class="new" >Personal Information</h1>
+        
+        <p>First Name: <input type="text" name="name"> Last Name: <input type="text" name="name" required>
+        </p>
+        <p>Email: <input type="email" name="email" id="email" required></p>
+        <p>Contact No: <input type="number" required></p>
+    <fieldset>
+        <legend>GENDER</legend>
+        <p>
+            Male <input type="radio" name="Gender" id="">
+            Female <input type="radio" name="Gender" id="">
+        </p>
+    </fieldset>  
+    <P>Address: <textarea name="Address" id="address" cols="80" rows="9"></textarea></P>  
+    <p>Pin: <input type="Number"></p>
+    <hr>
+    <h1>Payement Form</h1>
+    <p>Payement Type</p>
+    <p>Card: <input type="radio" name="payment"></p>
+    <P>Paytm: <input type="radio" name="payment"></P>
+    <p>Paypal: <input type="radio" name="payment"></p>
+    <p>Internet Banking: <input type="radio" name="payment"></p>
+    <p>Card Type:
+        <select name="Card_type" id="Card_type">
+            <option value="">--Select a Card Type--</option>
+            <option value="Visa">Visa</option>
+            <option value="Paytm">Paytm</option>
+            <option value="Paypal">Paypal</option>
+            <option value="MasterCard">MasterCard</option>
+        </select>
+        <fieldset>
+            <legend>BRO</legend>
+            <p>good</p>
+        </fieldset>
+    </p>
+    <p>
+        Card Number: <input type="Number" name="number" id="number">
+    </p>
+    <p>
+        Expiration Date: <input type="date">
+    </p>
+     <p>
+        CVV <input type="password">
+     </p>
+     <p class="broo">
+        PayNow: <input type="submit" Value ="Pay Now">
+     </p>
+
+    </form> 
+</body>
+</html>

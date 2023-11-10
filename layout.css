@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+#max{
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 1em;
+}
+.special{
+    background-color: blueviolet;
+    padding: 15px;
+    color: aliceblue;
+}
+.box-set,.box{
+    border-radius: 6px;
+
+}
+.box-set{
+    background: white;
+}
+.box{
+    background: rgb(207, 75, 255);
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 20px;
+}
+.box-4{
+    right:10px;
+}
+.box-1{
+    left:10px;
+}
+.box-2{
+    bottom:10px;
+}
+.box-3{
+    top:10px;
+}
